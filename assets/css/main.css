@@ -82,17 +82,23 @@ input, select, textarea {
   color: white; /* White text color */
 }
 
-.unity {width: 90%; background-color: #4CAF50;} /* Green */
-.androidstudio {width: 50%; background-color: #a0af4c;} /* Green */
-.csharp {width: 85%; background-color: #4c98af;} /* Green */
-.python {width: 70%; background-color: #4c4eaf;} /* Green */
-.java {width: 75%; background-color: #af684c;} /* Green */
-.trello {width: 90%; background-color: #af984c;} /* Green */
-.designpatterns {width: 80%; background-color: #af4c96;} /* Green */
-.mecanicajogos {width: 75%; background-color: #824caf;} /* Green */
+.unity {width: 85%; background-color: #4c98af;} /* Green */
+.androidstudio {width: 55%; background-color: #4c98af;} /* Green */
+.csharp {width: 80%; background-color: #4c98af;} /* Green */
+.python {width: 70%; background-color: #4c98af;} /* Green */
+.java {width: 75%; background-color: #4c98af;} /* Green */
+.trello {width: 80%; background-color: #4c98af;} /* Green */
+.designpatterns {width: 70%; background-color: #4c98af;} /* Green */
+.mecanicajogos {width: 75%; background-color: #4c98af;} /* Green */
 
-.portugues {width: 100%; background-color: #54aa23;} /* Green */
-.ingles {width: 80%; background-color: #2c39e9;} /* Green */
+.arduino {width: 70%; background-color: #4c98af;} /* Green */
+.clinguagem {width: 50%; background-color: #4c98af;} /* Green */
+.cplusplus {width: 60%; background-color: #4c98af;} /* Green */
+.pixelart {width: 50%; background-color: #4c98af;} /* Green */
+.desenvolvimentojogos {width: 70%; background-color: #4c98af;} /* Green */
+
+.portugues {width: 100%; background-color: #4c98af;} /* Green */
+.ingles {width: 80%; background-color: #4c98af;} /* Green */
 
 
 /* Basic */
@@ -2601,12 +2607,10 @@ input, select, textarea {
 		}
 
 	ul {
-		margin: 0 0 2em 0;
-		padding-left: 1em;
+		margin: 0 0 3em 0;
 	}
 
 		ul li {
-			padding-left: 0.5em;
 		}
 
 		ul.alt {
@@ -2867,7 +2871,7 @@ input, select, textarea {
 		height: 3em;
 		line-height: 3em;
 		padding: 0 2.25em;
-		text-align: center;
+		text-align: center; 
 		text-decoration: none;
 		white-space: nowrap;
 	}
