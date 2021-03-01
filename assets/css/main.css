@@ -82,13 +82,28 @@ input, select, textarea {
   color: white; /* White text color */
 }
 
+.dedicado {width: 80%; background-color: #4c98af;}
+.autodidata {width: 90%; background-color: #4c98af;}
+.focado {width: 75%; background-color: #4c98af;}
+.responsavel {width: 85%; background-color: #4c98af;}
+.vontadeaprender {width: 70%; background-color: #4c98af;}
+
+.word {width: 90%; background-color: #4c98af;}
+.powerpoint {width: 80%; background-color: #4c98af;}
+.excel {width: 70%; background-color: #4c98af;}
+
+.html {width: 30%; background-color: #4c98af;}
+.sql {width: 20%; background-color: #4c98af;}
+
+.bancodados {width: 20%; background-color: #4c98af;}
+
 .unity {width: 85%; background-color: #4c98af;} /* Green */
 .androidstudio {width: 55%; background-color: #4c98af;} /* Green */
 .csharp {width: 80%; background-color: #4c98af;} /* Green */
 .python {width: 70%; background-color: #4c98af;} /* Green */
 .java {width: 75%; background-color: #4c98af;} /* Green */
-.trello {width: 80%; background-color: #4c98af;} /* Green */
-.designpatterns {width: 70%; background-color: #4c98af;} /* Green */
+.trello {width: 70%; background-color: #4c98af;} /* Green */
+.designpatterns {width: 50%; background-color: #4c98af;} /* Green */
 .mecanicajogos {width: 75%; background-color: #4c98af;} /* Green */
 
 .arduino {width: 70%; background-color: #4c98af;} /* Green */
@@ -115,6 +130,10 @@ input, select, textarea {
 
 	html, body {
 		background: #1c1d26;
+	}
+
+	bold {
+		font-weight: bold;
 	}
 
 	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2227,6 +2246,186 @@ input, select, textarea {
 		}
 
 	footer.major {
+		margin: 4em 0 0 0;
+	}
+
+	/* ------ Pessoais -------*/
+	header.pessoais {
+		margin: 0 0 2em 0;
+		position: relative;
+		text-align: center;
+	}
+
+		header.pessoais:after {
+			background: #4c98af;
+			content: '';
+			display: inline-block;
+			height: 0.2em;
+			max-width: 10em;
+			width: 100%;
+		}
+
+	footer.pessoais {
+		margin: 4em 0 0 0;
+	}
+
+	/* ------ Softwares -------*/
+	header.softwares {
+		margin: 6em 0 2em 0;
+		position: relative;
+		text-align: center;
+	}
+
+		header.softwares:after {
+			background: #4c98af;
+			content: '';
+			display: inline-block;
+			height: 0.2em;
+			max-width: 10em;
+			width: 100%;
+		}
+
+	footer.softwares {
+		margin: 0 0 1em 0;
+	}
+
+	/* ------ Linguagens de programação -------*/
+	header.lingprog {
+		margin: 6em 0 2em 0;
+		position: relative;
+		text-align: center;
+	}
+
+		header.lingprog:after {
+			background: #4c98af;
+			content: '';
+			display: inline-block;
+			height: 0.2em;
+			max-width: 25em;
+			width: 100%;
+		}
+
+	footer.lingprog {
+		margin: 4em 0 0 0;
+	}
+
+	/* ------ Tecnologias -------*/
+	header.tecnologias {
+		margin: 6em 0 2em 0;
+		position: relative;
+		text-align: center;
+	}
+
+		header.tecnologias:after {
+			background: #4c98af;
+			content: '';
+			display: inline-block;
+			height: 0.2em;
+			max-width: 13em;
+			width: 100%;
+		}
+
+	footer.tecnologias {
+		margin: 4em 0 0 0;
+	}
+
+	/* ------ Pretensão Salarial -------*/
+	header.pretensaosalarial {
+		margin: 6em 0 2em 0;
+		position: relative;
+		text-align: center;
+	}
+
+		header.pretensaosalarial:after {
+			background: #4c98af;
+			content: '';
+			display: inline-block;
+			height: 0.2em;
+			max-width: 17em;
+			width: 100%;
+		}
+
+	footer.pretensaosalarial {
+		margin: 4em 0 0 0;
+	}
+
+	/* ------ Tipo de Contrato Desejado -------*/
+	header.contratodesejado {
+		margin: 6em 0 2em 0;
+		position: relative;
+		text-align: center;
+	}
+
+		header.contratodesejado:after {
+			background: #4c98af;
+			content: '';
+			display: inline-block;
+			height: 0.2em;
+			max-width: 23em;
+			width: 100%;
+		}
+
+	footer.contratodesejado {
+		margin: 4em 0 0 0;
+	}
+
+	/* ------ Carteira de Motorista -------*/
+	header.carteiramotorista {
+		margin: 6em 0 2em 0;
+		position: relative;
+		text-align: center;
+	}
+
+		header.carteiramotorista:after {
+			background: #4c98af;
+			content: '';
+			display: inline-block;
+			height: 0.2em;
+			max-width: 18em;
+			width: 100%;
+		}
+
+	footer.carteiramotorista {
+		margin: 4em 0 0 0;
+	}
+
+	/* ------ Disponibilidade Para Me Mudar -------*/
+	header.disponibilidademudar {
+		margin: 6em 0 2em 0;
+		position: relative;
+		text-align: center;
+	}
+
+		header.disponibilidademudar:after {
+			background: #4c98af;
+			content: '';
+			display: inline-block;
+			height: 0.2em;
+			max-width: 27em;
+			width: 100%;
+		}
+
+	footer.disponibilidademudar {
+		margin: 4em 0 0 0;
+	}
+
+	/* ------ Data de Nascimento -------*/
+	header.datanascimento {
+		margin: 6em 0 2em 0;
+		position: relative;
+		text-align: center;
+	}
+
+		header.datanascimento:after {
+			background: #4c98af;
+			content: '';
+			display: inline-block;
+			height: 0.2em;
+			max-width: 18em;
+			width: 100%;
+		}
+
+	footer.datanascimento {
 		margin: 4em 0 0 0;
 	}
 
