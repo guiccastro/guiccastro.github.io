@@ -59,7 +59,7 @@ header {
     header nav .main {
         font-size: 20px;
         font-weight: 900;
-        margin-right: 100px;
+        margin-right: 20px;
         color: var(--tertiary-color);
     }
 
@@ -612,7 +612,17 @@ main {
 
 @media screen and (max-width: 1500px) {
 
-/* Basic */
+    header nav .main {
+        width: 100%;
+        text-align: center;
+        margin-right: 0px;
+    }
+
+    header nav .options {
+        width: 100%;
+        display: inherit;
+        justify-content: center;
+    }
 
     .banner {
         margin-top: 50px;
@@ -642,6 +652,10 @@ main {
     /* Header */
     header nav {
         padding: 5px 10px;
+    }
+
+    header nav .main {
+        width: auto;
     }
 
     header nav .options {
